@@ -8,7 +8,7 @@ import { IoMdFitness } from "react-icons/io";
 
 const Hero = () => {
   return (
-    <div className="py-36">
+    <div className="pb-20 pt-16">
       <div className="flex justify-center">
         <div className="flex max-w-[89vw] flex-col items-center justify-center md:max-w-2xl lg:max-w-[60vw]">
           <Image
@@ -28,11 +28,11 @@ const Hero = () => {
           />
 
           <p className="mb-4 text-center text-sm md:text-lg md:tracking-wider lg:text-2xl">
-            Hi, I&apos;m Milos, a Personal Strenght Coach based in Kuwait!
+            I&apos;m Milos, a Personal Strenght Coach based in Kuwait!
           </p>
           <a href="#about">
             <Button
-              title="Show My Work"
+              title="Find Out More"
               icon={<IoMdFitness size={20} />}
               position="right"
             />
