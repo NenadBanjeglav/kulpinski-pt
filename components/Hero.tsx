@@ -8,7 +8,7 @@ import { IoMdFitness } from "react-icons/io";
 
 const Hero = () => {
   return (
-    <div className="py-20">
+    <div className="py-36">
       <div className="flex justify-center">
         <div className="flex max-w-[89vw] flex-col items-center justify-center md:max-w-2xl lg:max-w-[60vw]">
           <Image

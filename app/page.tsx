@@ -1,3 +1,4 @@
+import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import { AuroraBackground } from "@/components/ui/AuroraBackground";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
@@ -10,6 +11,7 @@ export default function Home() {
       <div className="w-full max-w-7xl">
         <FloatingNav navItems={navItems} />
         <Hero />
+        <Grid />
       </div>
     </AuroraBackground>
   );
