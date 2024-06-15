@@ -4,7 +4,7 @@ import Image from "next/image";
 import React from "react";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import Button from "./ui/Button";
-import { IoMdFitness } from "react-icons/io";
+import ButtonSecondary from "./ui/ButtonSecondary";
 
 const Hero = () => {
   return (
@@ -16,7 +16,7 @@ const Hero = () => {
             alt="Kulpinski PT Logo"
             width={200}
             height={200}
-            className="rounded-full shadow-2xl shadow-red"
+            className="rounded-full"
           />
           <h2 className="mt-10 max-w-80 text-center text-xs uppercase tracking-widest text-blue-100">
             Kulpinski Personal Training
@@ -30,13 +30,14 @@ const Hero = () => {
           <p className="mb-4 text-center text-sm md:text-lg md:tracking-wider lg:text-2xl">
             I&apos;m Milos, a Personal Strenght Coach based in Kuwait!
           </p>
-          <a href="#about">
-            <Button
-              title="Find Out More"
-              icon={<IoMdFitness size={20} />}
-              position="right"
-            />
-          </a>
+          <div className="mt-5 flex flex-col gap-10 md:flex-row">
+            <a href="#contact">
+              <Button title="Get In Touch" />
+            </a>
+            <a href="#about">
+              <ButtonSecondary title="Find Out More" />
+            </a>
+          </div>
         </div>
       </div>
     </div>
