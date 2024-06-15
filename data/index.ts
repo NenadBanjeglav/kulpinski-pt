@@ -34,7 +34,7 @@ export const gridItems = [
       "Unlock your inner strength through personalized strategies designed to harness your unique abilities and transform potential into power.",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "w-full h-full filter grayscale",
-    titleClassName: "justify-start",
+    titleClassName: "justify-end",
     img: "/hero-home2.jpg",
     spareImg: "",
   },
